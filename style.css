@@ -204,6 +204,13 @@ footer {
     }
 }
 @media screen and (max-width:375px) {
+    body {
+        height: 100vh;
+    }
+    main {
+        height: 100vh;
+        margin: 0;
+    }
     #logo {
         width: 5rem;
         margin: 1rem 1.5rem;
